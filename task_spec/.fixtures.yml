@@ -1,7 +1,7 @@
 fixtures:
-  forge_modules:
+  repositories:
     facts:
-      repo: "puppetlabs/facts"
-      ref: "0.5.1"
+      repo: "git://github.com/donoghuc/puppetlabs-facts"
+      branch: "modules-9530"
   symlinks:
     puppet_agent: "#{File.absolute_path(File.join(source_dir, '..'))}"
